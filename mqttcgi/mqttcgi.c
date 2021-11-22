@@ -99,7 +99,7 @@ int main(int argc, char* argv[])
     printf("setTimeout(()=>{");
     printf("location.reload();");
     printf("},3000);");
-    printf("})");
+    printf("});");
     printf("</script>");
     printf ("</HTML>\n");
     mysql_close(con);
