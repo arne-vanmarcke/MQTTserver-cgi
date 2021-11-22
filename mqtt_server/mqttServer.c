@@ -85,8 +85,7 @@ int main(int argc, char* argv[])
     MQTTClient_connectOptions conn_opts = MQTTClient_connectOptions_initializer;
     MYSQL_RES *result;
     MYSQL_ROW row;
-    int rc;
-    int ch;
+    int rc,ch;
 
     con = mysql_init(NULL);
 
