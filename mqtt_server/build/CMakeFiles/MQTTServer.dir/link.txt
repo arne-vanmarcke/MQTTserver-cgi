@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/MQTTServer.dir/mqttServer.c.o  -o MQTTServer  -lpaho-mqtt3c -lmariadb 
